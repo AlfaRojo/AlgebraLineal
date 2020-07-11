@@ -103,6 +103,7 @@
             this.textBox2.TabIndex = 5;
             this.textBox2.Text = "0";
             this.textBox2.Visible = false;
+            this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
             // textBox3
             // 
@@ -112,6 +113,7 @@
             this.textBox3.TabIndex = 6;
             this.textBox3.Text = "0";
             this.textBox3.Visible = false;
+            this.textBox3.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
             // 
             // textBox4
             // 
@@ -121,6 +123,7 @@
             this.textBox4.TabIndex = 9;
             this.textBox4.Text = "0";
             this.textBox4.Visible = false;
+            this.textBox4.TextChanged += new System.EventHandler(this.textBox4_TextChanged);
             // 
             // textBox5
             // 
@@ -130,6 +133,7 @@
             this.textBox5.TabIndex = 8;
             this.textBox5.Text = "0";
             this.textBox5.Visible = false;
+            this.textBox5.TextChanged += new System.EventHandler(this.textBox5_TextChanged);
             // 
             // textBox6
             // 
@@ -139,6 +143,7 @@
             this.textBox6.TabIndex = 7;
             this.textBox6.Text = "0";
             this.textBox6.Visible = false;
+            this.textBox6.TextChanged += new System.EventHandler(this.textBox6_TextChanged);
             // 
             // textBox7
             // 
@@ -148,6 +153,7 @@
             this.textBox7.TabIndex = 12;
             this.textBox7.Text = "0";
             this.textBox7.Visible = false;
+            this.textBox7.TextChanged += new System.EventHandler(this.textBox7_TextChanged);
             // 
             // textBox8
             // 
@@ -157,6 +163,7 @@
             this.textBox8.TabIndex = 11;
             this.textBox8.Text = "0";
             this.textBox8.Visible = false;
+            this.textBox8.TextChanged += new System.EventHandler(this.textBox8_TextChanged);
             // 
             // textBox9
             // 
@@ -166,6 +173,7 @@
             this.textBox9.TabIndex = 10;
             this.textBox9.Text = "0";
             this.textBox9.Visible = false;
+            this.textBox9.TextChanged += new System.EventHandler(this.textBox9_TextChanged);
             // 
             // Picture
             // 

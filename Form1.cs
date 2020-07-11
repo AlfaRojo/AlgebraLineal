@@ -317,5 +317,77 @@ namespace PhotoCookie
                 textBox1.Text = textBox1.Text.Remove(textBox1.Text.Length - 1);
             }
         }
+
+        private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+            if (Regex.IsMatch(textBox2.Text, "[^0-9]"))
+            {
+                MessageBox.Show("Porfavor ingrese números solamente.");
+                textBox2.Text = textBox2.Text.Remove(textBox2.Text.Length - 1);
+            }
+        }
+
+        private void textBox3_TextChanged(object sender, EventArgs e)
+        {
+            if (Regex.IsMatch(textBox3.Text, "[^0-9]"))
+            {
+                MessageBox.Show("Porfavor ingrese números solamente.");
+                textBox3.Text = textBox3.Text.Remove(textBox3.Text.Length - 1);
+            }
+        }
+
+        private void textBox6_TextChanged(object sender, EventArgs e)
+        {
+            if (Regex.IsMatch(textBox6.Text, "[^0-9]"))
+            {
+                MessageBox.Show("Porfavor ingrese números solamente.");
+                textBox6.Text = textBox6.Text.Remove(textBox6.Text.Length - 1);
+            }
+        }
+
+        private void textBox5_TextChanged(object sender, EventArgs e)
+        {
+            if (Regex.IsMatch(textBox5.Text, "[^0-9]"))
+            {
+                MessageBox.Show("Porfavor ingrese números solamente.");
+                textBox5.Text = textBox5.Text.Remove(textBox5.Text.Length - 1);
+            }
+        }
+
+        private void textBox4_TextChanged(object sender, EventArgs e)
+        {
+            if (Regex.IsMatch(textBox4.Text, "[^0-9]"))
+            {
+                MessageBox.Show("Porfavor ingrese números solamente.");
+                textBox4.Text = textBox4.Text.Remove(textBox4.Text.Length - 1);
+            }
+        }
+
+        private void textBox9_TextChanged(object sender, EventArgs e)
+        {
+            if (Regex.IsMatch(textBox9.Text, "[^0-9]"))
+            {
+                MessageBox.Show("Porfavor ingrese números solamente.");
+                textBox9.Text = textBox9.Text.Remove(textBox9.Text.Length - 1);
+            }
+        }
+
+        private void textBox8_TextChanged(object sender, EventArgs e)
+        {
+            if (Regex.IsMatch(textBox8.Text, "[^0-9]"))
+            {
+                MessageBox.Show("Porfavor ingrese números solamente.");
+                textBox8.Text = textBox8.Text.Remove(textBox8.Text.Length - 1);
+            }
+        }
+
+        private void textBox7_TextChanged(object sender, EventArgs e)
+        {
+            if (Regex.IsMatch(textBox7.Text, "[^0-9]"))
+            {
+                MessageBox.Show("Porfavor ingrese números solamente.");
+                textBox7.Text = textBox7.Text.Remove(textBox7.Text.Length - 1);
+            }
+        }
     }
 }
